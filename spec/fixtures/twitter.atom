@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Twitter / bradgessler</title>
+  <id>tag:twitter.com,2007:Status</id>
+  <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler"/>
+  <updated>2009-01-29T20:11:53+00:00</updated>
+  <subtitle>Twitter updates from Brad Gessler / bradgessler.</subtitle>
+    <entry>
+      <title>bradgessler: Why doesn't ruby have a decent RSS parser lib? Looks like I get to roll my own...</title>
+      <content type="html">bradgessler: Why doesn't ruby have a decent RSS parser lib? Looks like I get to roll my own...</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1159405159</id>
+      <published>2009-01-29T19:28:15+00:00</published>
+      <updated>2009-01-29T19:28:15+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1159405159"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Guess what this is http://is.gd/hHu5, I'll tell you in a few hours.</title>
+      <content type="html">bradgessler: Guess what this is http://is.gd/hHu5, I'll tell you in a few hours.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1159102595</id>
+      <published>2009-01-29T17:43:57+00:00</published>
+      <updated>2009-01-29T17:43:57+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1159102595"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: If you're a web startup and you haven't already, put your phone number on your website! You'll learn so much.</title>
+      <content type="html">bradgessler: If you're a web startup and you haven't already, put your phone number on your website! You'll learn so much.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1156462457</id>
+      <published>2009-01-28T21:02:06+00:00</published>
+      <updated>2009-01-28T21:02:06+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1156462457"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Sounds like @TechCrunch needs to be #T@chCrunch and not Michael Arrington. Institutionalize it Mike. http://is.gd/g2yH</title>
+      <content type="html">bradgessler: Sounds like @TechCrunch needs to be #T@chCrunch and not Michael Arrington. Institutionalize it Mike. http://is.gd/g2yH</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1154910336</id>
+      <published>2009-01-28T11:06:55+00:00</published>
+      <updated>2009-01-28T11:06:55+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1154910336"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Glad I thought, &quot;F#@K the establishment&quot; and got a silver XSi instead of black.</title>
+      <content type="html">bradgessler: Glad I thought, &quot;F#@K the establishment&quot; and got a silver XSi instead of black.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1154839108</id>
+      <published>2009-01-28T10:13:43+00:00</published>
+      <updated>2009-01-28T10:13:43+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1154839108"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Canon Rebel XSi ... it came!</title>
+      <content type="html">bradgessler: Canon Rebel XSi ... it came!</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1154823389</id>
+      <published>2009-01-28T10:01:34+00:00</published>
+      <updated>2009-01-28T10:01:34+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1154823389"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: @dcurtis should put all of his &quot;rage&quot; ____ (fill in the blank) on rage.dcurtis.com.</title>
+      <content type="html">bradgessler: @dcurtis should put all of his &quot;rage&quot; ____ (fill in the blank) on rage.dcurtis.com.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1154822855</id>
+      <published>2009-01-28T10:01:09+00:00</published>
+      <updated>2009-01-28T10:01:09+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1154822855"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: I have a deal for you. Every founder of Poll Everywhere has a deal for you.</title>
+      <content type="html">bradgessler: I have a deal for you. Every founder of Poll Everywhere has a deal for you.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1154159545</id>
+      <published>2009-01-28T03:11:25+00:00</published>
+      <updated>2009-01-28T03:11:25+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1154159545"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Yay! Jeannette got into Berkeley!</title>
+      <content type="html">bradgessler: Yay! Jeannette got into Berkeley!</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1153726446</id>
+      <published>2009-01-28T00:08:53+00:00</published>
+      <updated>2009-01-28T00:08:53+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1153726446"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: @teach42 G&#246;del, Escher, Bach http://is.gd/hsv6</title>
+      <content type="html">bradgessler: @teach42 G&#246;del, Escher, Bach http://is.gd/hsv6</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1153560883</id>
+      <published>2009-01-27T23:03:29+00:00</published>
+      <updated>2009-01-27T23:03:29+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1153560883"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: @dcurtis Keep your bodily fluid releases to yourself</title>
+      <content type="html">bradgessler: @dcurtis Keep your bodily fluid releases to yourself</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1152823072</id>
+      <published>2009-01-27T18:35:44+00:00</published>
+      <updated>2009-01-27T18:35:44+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1152823072"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: One more item taken care of for our wedding, 100 more to go.</title>
+      <content type="html">bradgessler: One more item taken care of for our wedding, 100 more to go.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1151605447</id>
+      <published>2009-01-27T09:01:58+00:00</published>
+      <updated>2009-01-27T09:01:58+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1151605447"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: @dcurtis If the price is right and the domain was purchased through go-daddy, hell yeah. Do they have an affiliate program?</title>
+      <content type="html">bradgessler: @dcurtis If the price is right and the domain was purchased through go-daddy, hell yeah. Do they have an affiliate program?</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1150719326</id>
+      <published>2009-01-27T00:45:19+00:00</published>
+      <updated>2009-01-27T00:45:19+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1150719326"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Coffee + salsa verde breakfast burrito + coffee = :-)</title>
+      <content type="html">bradgessler: Coffee + salsa verde breakfast burrito + coffee = :-)</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1149589048</id>
+      <published>2009-01-26T17:29:25+00:00</published>
+      <updated>2009-01-26T17:29:25+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1149589048"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Got a silver Canon XSi on the way... time to read up on photography!</title>
+      <content type="html">bradgessler: Got a silver Canon XSi on the way... time to read up on photography!</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1149572783</id>
+      <published>2009-01-26T17:23:32+00:00</published>
+      <updated>2009-01-26T17:23:32+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1149572783"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: @tcdavis Tweet the problem (or tweet its pastie)</title>
+      <content type="html">bradgessler: @tcdavis Tweet the problem (or tweet its pastie)</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1148014395</id>
+      <published>2009-01-26T02:13:25+00:00</published>
+      <updated>2009-01-26T02:13:25+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1148014395"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Sat in the back of a crumb wagon to recover Sean's phone</title>
+      <content type="html">bradgessler: Sat in the back of a crumb wagon to recover Sean's phone</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1145142181</id>
+      <published>2009-01-24T19:25:57+00:00</published>
+      <updated>2009-01-24T19:25:57+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1145142181"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: @polleverywhere @Posterous  @anyvite http://twitpic.com/163yu</title>
+      <content type="html">bradgessler: @polleverywhere @Posterous  @anyvite http://twitpic.com/163yu</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1141331824</id>
+      <published>2009-01-23T06:31:16+00:00</published>
+      <updated>2009-01-23T06:31:16+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1141331824"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: http://twitpic.com/15ahs</title>
+      <content type="html">bradgessler: http://twitpic.com/15ahs</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1134811770</id>
+      <published>2009-01-20T23:22:42+00:00</published>
+      <updated>2009-01-20T23:22:42+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1134811770"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+    <entry>
+      <title>bradgessler: Murphy's Law stops NOW.</title>
+      <content type="html">bradgessler: Murphy's Law stops NOW.</content>
+      <id>tag:twitter.com,2007:http://twitter.com/bradgessler/statuses/1133145135</id>
+      <published>2009-01-20T13:45:04+00:00</published>
+      <updated>2009-01-20T13:45:04+00:00</updated>
+      <link type="text/html" rel="alternate" href="http://twitter.com/bradgessler/statuses/1133145135"/>
+      <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/68736777/bgessler_normal.png"/>
+      <author>
+        <name>Brad Gessler</name>
+        <uri>http://bradgessler.com</uri>
+      </author>
+    </entry>
+</feed>

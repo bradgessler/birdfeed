@@ -1,0 +1,7 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/birdfeed
+lib/birdfeed.rb
+test/test_birdfeed.rb
