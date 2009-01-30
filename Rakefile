@@ -12,6 +12,6 @@ end
 
 desc "Run specs"
 Spec::Rake::SpecTask.new(:spec) do |t|
-  t.spec_files = FileList['spec/birdfeed/**/*.rb']
+  t.spec_files = FileList['spec/specs/*.rb', 'spec/specs/format/*.rb']
   t.spec_opts = ['--colour', '--format', 'specdoc']
 end

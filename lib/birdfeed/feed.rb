@@ -1,27 +1,11 @@
 module BirdFeed
   class Feed
-    attr_reader :title, :link, :updated_at, :description, :guid, :author, :parser
+    attr_accessor :title, :link, :description, :updated_at, :publisher, :xml, :items, :raw_content
     
-    def initialize(xml='', options={})
-      @xml = xml
+    def initialize(format, &block)
       @items = []
-      @parser = Parser.detect(xml)
-    end
-    
-    def items
-    end
-    
-    def format
-      @parser.class.format
-    end
-    
-    alias :entries :items
-    alias :id :guid
-    
-  protected
-    # Detects and returns the format of the feed
-    def format
-      
+      @format = format
+      yield self if block_given?
     end
   end
 end

@@ -1,7 +1,8 @@
 require 'rubygems'
 require 'spec'
 require File.join(File.dirname(__FILE__), %w[.. lib birdfeed])
-include BirdFeed # Drop into our own namespace
+
+include BirdFeed
 
 def feed(name,format=:rss)
   name = name.to_s
