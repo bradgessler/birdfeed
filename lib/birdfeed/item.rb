@@ -1,8 +1,9 @@
 module BirdFeed
   class Item
-    attr_reader :node, :xml, :title, :link, :description, :published_at, :id
+    attr_accessor :node, :xml, :title, :link, :description, :published_at, :id, :author
     
-    def initialize
+    def initialize(&block)
+      yield self if block_given?
     end
   end
 end
