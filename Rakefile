@@ -11,6 +11,7 @@ begin
     s.homepage = "http://github.com/bradgessler/crapapp"
     s.description = "An RSS/Atom reader based on the Nokogiri XML parser for Ruby"
     s.authors = ["Brad Gessler"]
+    s.add_dependency 'nokogiri', ['>= 1.1.1']
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
