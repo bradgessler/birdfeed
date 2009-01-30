@@ -24,4 +24,4 @@ module BirdFeed
 end
 
 Dir.glob(File.join(File.dirname(__FILE__), %w[format *.rb])).each {|file| require file }
-Dir.glob(File.join(File.dirname(__FILE__), %w[formats])).each {|file| require file }
+require File.join(File.dirname(__FILE__), 'formats.rb')

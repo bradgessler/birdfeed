@@ -1,5 +1,7 @@
 require 'rubygems'
-Dir.glob(File.join(File.dirname(__FILE__), %w[birdfeed *.rb])).each {|file| require file }
+%w(feed format item).each do |file|
+  require File.join(File.dirname(__FILE__), %w[birdfeed], file)
+end
 
 module BirdFeed
 end
