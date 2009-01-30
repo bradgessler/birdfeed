@@ -11,18 +11,18 @@ module BirdFeed
         Nokogiri::parse(content) do |xml|
           return Feed.new(self) do |feed|
             feed.raw_content = content
-            feed.title = xml.css('rss > channel > title').inner_text
-            feed.description = xml.css('rss > channel > description').inner_text
-            feed.link = xml.css('rss > channel > link').inner_text
-            feed.updated_at = xml.css('rss > channel > pubDate').inner_text
+            feed.title = xml.css('rss > channel > title').text
+            feed.description = xml.css('rss > channel > description').text
+            feed.link = xml.css('rss > channel > link').text
+            feed.updated_at = xml.css('rss > channel > pubDate').text
             xml.css('rss > channel item').each do |item_node|
               feed.items << Item.new do |item|
                 item.xml = item_node.to_xml
                 item.node = item_node
-                item.title = item_node.css('title').inner_text
-                item.description = item_node.css('description').inner_text
-                item.link = item_node.css('link').inner_text
-                item.id = item_node.css('guid').inner_text
+                item.title = item_node.css('title').text
+                item.description = item_node.css('description').text
+                item.link = item_node.css('link').text
+                item.id = item_node.css('guid').text
               end
             end
           end

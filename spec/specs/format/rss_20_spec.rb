@@ -33,7 +33,7 @@ describe Rss20, "feed parser" do
     @cnn.description.should eql('CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.')
   end
   
-  it "should parse published_at" do
+  it "should parse updated_at" do
     @cnn.updated_at.should eql('Thu, 29 Jan 2009 14:19:49 EST')
   end
   
