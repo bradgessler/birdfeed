@@ -1,32 +1,14 @@
-= birdfeed
+= BirdFeed - a dead simple feed reader that tries not to suck
 
-* FIX (url)
-
-== DESCRIPTION:
-
-FIX (describe your package)
-
-== FEATURES/PROBLEMS:
-
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
-
-== REQUIREMENTS:
-
-* FIX (list of requirements)
-
-== INSTALL:
-
-* FIX (sudo gem install, anything else)
+Bird feed is a well tested RSS parsing library that attempts to normalize the
+concept of an Atom and RSS feed. We wrote this library to solve the problem of
+consuming several different feed types.
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIX
+Copyright (c) 2009 Condense, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

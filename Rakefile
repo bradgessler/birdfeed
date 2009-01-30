@@ -1,13 +1,30 @@
 require 'rake'
 require 'rubygems'
-require 'hoe'
-require './lib/birdfeed.rb'
 require 'spec/rake/spectask'
+require './lib/birdfeed.rb'
+Gem::manage_gems
+require 'rake/gempackagetask'
 
-Hoe.new('birdfeed', Birdfeed::VERSION) do |p|
-  p.rubyforge_name = 'birdfeed' # if different than lowercase project name
-  p.summary = "A dead simple RSS/Atom parser that is not in denial that XML is underneath."
-  p.developer('Brad Gessler', 'brad@conden.se')
+spec = Gem::Specification.new do |s|
+    s.platform  =   Gem::Platform::RUBY
+    s.name      =   "Brad Gessler"
+    s.version   =   "0.1.0"
+    s.author    =   "Brad Gessler"
+    s.email     =   "brad@conden.se"
+    s.summary   =   "A feed reader designed to normalize RSS/Atom content"
+    s.files     =   FileList['lib/*.rb', 'test/*'].to_a
+    s.require_path  =   "lib"
+    s.autorequire   =   "birdfeed"
+    s.test_files = Dir.glob('specs/*.rb')
+    s.extra_rdoc_files  =   ["README.txt"]
+end
+
+Rake::GemPackageTask.new(spec) do |pkg|
+    pkg.need_tar = true
+end
+
+task :default => "pkg/#{spec.name}-#{spec.version}.gem" do
+    puts "generated latest version"
 end
 
 desc "Run specs"
