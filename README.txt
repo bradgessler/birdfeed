@@ -5,10 +5,12 @@ Nokogiri XML parser in an attempt to normalize the concept of an
 Atom and RSS feed. We wrote this library to solve the problem of
 consuming several different feed types for a moderation tool.
 
-There are a few things that currently suck about BirdFeed: first,
+There are a few things that currently suck about BirdFeed. First,
 we haven't used this code enough to iron out design flaws. Second,
 there documentation is nil. I sacrificed documentation in favor
 of spec tests because I was simply too short on time.
+
+Abandon all hope ye who enter!
  
 == LICENSE:
 
