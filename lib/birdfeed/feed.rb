@@ -7,5 +7,11 @@ module BirdFeed
       @format = format
       yield self if block_given?
     end
+    
+    class << self
+      def parse(content)
+        Format.detect(content).parse(content)
+      end
+    end
   end
 end
