@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{birdfeed}
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brad Gessler"]
-  s.date = %q{2009-01-30}
+  s.date = %q{2009-01-31}
   s.description = %q{An RSS/Atom reader based on the Nokogiri XML parser for Ruby}
   s.email = %q{brad@conden.se}
-  s.files = ["README.txt", "VERSION.yml", "lib/birdfeed", "lib/birdfeed/feed.rb", "lib/birdfeed/format", "lib/birdfeed/format/atom10.rb", "lib/birdfeed/format/rss20.rb", "lib/birdfeed/format.rb", "lib/birdfeed/formats.rb", "lib/birdfeed/item.rb", "lib/birdfeed.rb", "spec/fixtures", "spec/fixtures/cnn_topstories.rss", "spec/fixtures/flickr.atom", "spec/fixtures/twitter.atom", "spec/fixtures/twitter.rss", "spec/spec_helper.rb", "spec/specs", "spec/specs/bird_feed_spec.rb", "spec/specs/feed_spec.rb", "spec/specs/format", "spec/specs/format/atom_10_spec.rb", "spec/specs/format/rss_20_spec.rb", "spec/specs/format_spec.rb"]
+  s.files = ["README.txt", "VERSION.yml", "lib/birdfeed", "lib/birdfeed/feed.rb", "lib/birdfeed/format", "lib/birdfeed/format/atom10.rb", "lib/birdfeed/format/rss20.rb", "lib/birdfeed/format.rb", "lib/birdfeed/formats.rb", "lib/birdfeed/item.rb", "lib/birdfeed.rb", "spec/fixtures", "spec/fixtures/cnn_topstories.rss", "spec/fixtures/digg.rss", "spec/fixtures/flickr.atom", "spec/fixtures/twitter.atom", "spec/fixtures/twitter.rss", "spec/spec_helper.rb", "spec/specs", "spec/specs/bird_feed_spec.rb", "spec/specs/feed_spec.rb", "spec/specs/format", "spec/specs/format/atom_10_spec.rb", "spec/specs/format/rss_20_spec.rb", "spec/specs/format_spec.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/bradgessler/crapapp}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
