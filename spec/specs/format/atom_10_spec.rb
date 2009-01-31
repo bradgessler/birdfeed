@@ -16,6 +16,29 @@ describe Atom10, "validity" do
   end
 end
 
+describe Atom10, "namespaces" do
+  before(:each) do
+    @flickr = Atom10.parse(feed(:flickr, :atom))
+  end
+  
+  it "should have namespaces" do
+    @flickr.should respond_to(:namespaces)
+  end
+  
+  it "should parse namespaces" do
+    @flickr.namespaces.should have(4).items
+    {
+      'xmlns:flickr' => 'urn:flickr:',
+      'xmlns:media' => "http://search.yahoo.com/mrss/",
+      'xmlns:dc' => 'http://purl.org/dc/elements/1.1/',
+      'xmlns' => 'http://www.w3.org/2005/Atom'
+    }.each do |namespace, uri|
+      @flickr.namespaces.should have_key(namespace)
+      @flickr.namespaces[namespace].should eql(uri)
+    end
+  end
+end
+
 describe Atom10, "feed parser" do
   before(:each) do
     @cnn = Atom10.parse(feed(:twitter, :atom))
@@ -61,6 +84,10 @@ describe Atom10, "item parser" do
   
   it "should have author" do
     @item.author.should eql('Brad Gessler')
+  end
+  
+  it "should have published_at" do
+    @item.published_at.should eql('2009-01-29T19:28:15+00:00')
   end
   
   it "should parse link" do

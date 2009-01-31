@@ -10,6 +10,7 @@ module BirdFeed
       def parse(content)
         Nokogiri::parse(content) do |xml|
           return Feed.new(self) do |feed|
+            feed.namespaces = xml.css('rss').first.namespaces
             feed.raw_content = content
             feed.title = xml.css('rss > channel > title').text
             feed.description = xml.css('rss > channel > description').text
@@ -21,6 +22,7 @@ module BirdFeed
                 item.node = item_node
                 item.title = item_node.css('title').text
                 item.description = item_node.css('description').text
+                item.published_at = item_node.css('pubDate').text
                 item.link = item_node.css('link').text
                 item.id = item_node.css('guid').text
               end

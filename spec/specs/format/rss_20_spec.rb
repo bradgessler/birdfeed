@@ -46,6 +46,28 @@ describe Rss20, "feed parser" do
   end
 end
 
+describe Rss20, "namespaces" do
+  before(:each) do
+    @digg = Rss20.parse(feed(:digg, :rss))
+  end
+  
+  it "should have namespaces" do
+    @digg.should respond_to(:namespaces)
+  end
+  
+  it "should parse namespaces" do
+    @digg.namespaces.should have(3).items
+    {
+       'xmlns:digg' => "http://digg.com/docs/diggrss/",
+       'xmlns:media' => "http://search.yahoo.com/mrss/",
+       'xmlns:feedburner' =>"http://rssnamespace.org/feedburner/ext/1.0"
+    }.each do |namespace, uri|
+      @digg.namespaces.should have_key(namespace)
+      @digg.namespaces[namespace].should eql(uri)
+    end
+  end
+end
+
 describe Rss20, "item parser" do
   before(:each) do
     @item = Rss20.parse(feed(:cnn_topstories, :rss)).items.first
@@ -61,6 +83,10 @@ describe Rss20, "item parser" do
   
   it "should have blank author" do
     @item.author.should be_nil # RSS doesn't support authors ya dumby!
+  end
+  
+  it "should have published_at" do
+    @item.published_at.should eql('Thu, 29 Jan 2009 14:10:13 EST')
   end
   
   it "should parse link" do

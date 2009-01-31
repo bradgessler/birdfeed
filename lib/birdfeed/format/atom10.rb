@@ -2,13 +2,6 @@ require 'nokogiri'
 
 module BirdFeed
   class Atom10 < Format
-    attr_reader :xml, :doc
-    
-    def initialize(xml)
-      @xml = xml
-      @doc = Nokogiri::XML(xml)
-    end
-    
     class << self
       def format
         "Atom 1.0"
@@ -17,6 +10,11 @@ module BirdFeed
       def parse(content)
         Nokogiri::parse(content) do |xml|
           return Feed.new(self) do |feed|
+            feed.namespaces = xml.css('feed').first.attributes.inject({}) do |namespaces, attribute|
+              key, value = attribute
+              namespaces[key.to_s] = value.to_s if key =~ /^xmlns/
+              namespaces
+            end
             feed.raw_content = content
             feed.title = xml.css('feed > title').text
             feed.description = xml.css('feed > subtitle').text
@@ -28,6 +26,7 @@ module BirdFeed
                 item.node = item_node
                 item.title = item_node.css('title').text
                 item.description = item_node.css('content').text
+                item.published_at = item_node.css('published').text
                 item.link = item_node.css('link').attr('href')
                 item.id = item_node.css('id').text
                 item.author = item_node.css('author > name').text
