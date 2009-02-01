@@ -25,6 +25,7 @@ module BirdFeed
                 item.published_at = item_node.css('pubDate').text
                 item.link = item_node.css('link').text
                 item.id = item_node.css('guid').text
+                item.author = item_node.css('author').text if item_node.css('author')
               end
             end
           end

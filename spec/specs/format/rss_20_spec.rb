@@ -81,8 +81,8 @@ describe Rss20, "item parser" do
     @item.description.should match(/^Enter the "Devil's Cave" by pulling aside the wooden grate beneath the porch of the abandoned suburban New Jersey home/)
   end
   
-  it "should have blank author" do
-    @item.author.should be_nil # RSS doesn't support authors ya dumby!
+  it "should have author" do
+    @item.author.should eql('Billy Fleenor')
   end
   
   it "should have published_at" do
